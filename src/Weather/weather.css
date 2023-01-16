@@ -1,0 +1,26 @@
+.weather {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 0px;
+  color: white;
+  background-image: url(../../public/assests/cloudyy.jpg);
+  background-size: cover;
+  background-position: center;
+  gap: 30px;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0000004a;
+}

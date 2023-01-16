@@ -1,0 +1,31 @@
+
+
+.sidebar_container_toggle {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 40%;
+    padding: 80px 20px 20px 20px;
+    background-color: #2C2C2C;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100%;
+    box-sizing: border-box;
+    transition: 750ms all linear;
+    z-index: 100;
+  }
+  .sidebar_container_toggle_show{
+    left: 0%;
+    transition: 750ms all linear;
+  }
+  .toggle_sidebar{
+    position: absolute;
+    z-index: 150;
+    color:#CDCDCD;
+    font-size: 30px;
+    top: 05%;
+    left: 05%;
+    width: 40px;
+    height: 40px;
+    font-weight: lighter;
+  }

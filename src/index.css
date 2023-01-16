@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* copse-regular - latin */
+@font-face {
+  font-family: 'Copse';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/copse-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/copse-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/copse-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/copse-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/copse-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/copse-v15-latin-regular.svg#Copse') format('svg'); /* Legacy iOS */
+}
+
+
+/* yantramanav-regular - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/yantramanav-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/yantramanav-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/yantramanav-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/yantramanav-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/yantramanav-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/yantramanav-v11-latin-regular.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'STIX Two Text' ;
+}
+
+
+:root{
+  --primary_font : "Copse";
+  --yantra : "Yantramanav"
+}
